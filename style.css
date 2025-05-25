@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#body{
+    height: 844px;
+    width: 390px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    height: 350px;
+    width: 350px;
+    background: white;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-bottom: 30px;
+}
+.menu-list{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+p{
+    font-size: 30px;
+}
+p:hover{
+    background-color: blue;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    background-color: rgb(237, 228, 228);
+}
+.dialer{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pause{
+     height: 200px;
+    width: 200px;
+    background-color: rgba(174, 168, 168, 0.991);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    height: 60px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+}
+audio{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(249, 247, 247);
+}
