@@ -10,8 +10,8 @@ body{
     
 }
 #body{
-    height: 844px;
-    width: 390px;
+    height: 1000px;
+    width: 500px; 
     background-color: antiquewhite;
     border-radius: 20px;
     border: 5px solid black;
@@ -106,7 +106,9 @@ audio{
     width: 300px;
     background-color: rgb(249, 247, 247);
 }
-.selected{
-    background-color: aqua;
-    color: white;
+@media (max-width:480px)  {
+    #body{
+        height: 100vh;
+        width: 100vw;
+    }
 }
