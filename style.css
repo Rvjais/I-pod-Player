@@ -54,17 +54,44 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 }
 .pause{
-     height: 200px;
+ height: 200px;
     width: 200px;
     background-color: rgba(174, 168, 168, 0.991);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
     
+    
+}
+.left{
+  position:relative;
+  right: 60px;
+    font-weight: 1000;
+}
+.right{
+  position:relative;
+  left: 110px;
+    font-weight: 1000;
+}
+.menu{
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.play{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 68px;
+    right: 39px;
 }
 button{
     height: 60px;
@@ -72,6 +99,7 @@ button{
     background-color: transparent;
     border: none;
     font-size: 50px;
+    cursor: pointer;
 }
 audio{
     height: 100px;
