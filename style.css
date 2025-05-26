@@ -106,3 +106,7 @@ audio{
     width: 300px;
     background-color: rgb(249, 247, 247);
 }
+.selected{
+    background-color: aqua;
+    color: white;
+}
